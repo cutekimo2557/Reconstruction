@@ -1,4 +1,4 @@
-#include "contact_error.h"
+#include "contact_error.hpp"
 
 // Get the last error message from Windows
 std::string GetLastErrorAsString() {
