@@ -1,4 +1,4 @@
-#include "make_sinogram.h"
+#include "make_sinogram.hpp"
 
 Mat radonTransform(const Mat& img, const std::vector<double>& theta) {
     int rows = img.rows;
