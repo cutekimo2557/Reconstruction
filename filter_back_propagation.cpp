@@ -1,7 +1,7 @@
 #include <Windows.h>
 #include "filter_back_propagation.hpp"
-#include "make_sinogram.h"
-#include "contact_error.h"
+#include "make_sinogram.hpp"
+#include "contact_error.hpp"
 
 Mat Perform_radon_Transform(string file_name = "CTex.png", uint arbit_angle = 180) {
     Mat img = imread(file_name, IMREAD_COLOR);
